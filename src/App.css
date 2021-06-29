@@ -1,0 +1,31 @@
+#content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.deletebtn{
+    transition: 0.1s;
+}
+.deletebtn:hover{
+    background-color: rgb(177, 50, 0);
+    color: white;
+}
+.main{
+    min-width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    opacity: 0.6;
+    background-color: white;
+    z-index: 10;
+    display: inline-block;
+}
+.cart{
+    z-index: 11;
+}
+.cartItems{
+    max-height: 20em;
+    min-height: 2em;
+    width: 100%;
+    overflow: auto;
+}
